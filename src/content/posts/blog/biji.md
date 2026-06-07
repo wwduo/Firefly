@@ -6,7 +6,7 @@ image: ./cover.jpg
 tags: [前端, 开发]
 category: 前端开发
 draft: false
-author:xizesha
+author: xizesha
 ---
 #博客 
 ##测试笔记
