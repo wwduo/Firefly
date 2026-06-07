@@ -1,5 +1,5 @@
 ---
-title: *biji*
+title: 'biji'
 published: 2026-06-07
 description: 这是文章的简短描述
 image: ./cover.jpg
