@@ -41,9 +41,9 @@ export const adConfig1: AdConfig = {
 
 // 广告配置2 - 完整内容广告
 export const adConfig2: AdConfig = {
-	title: "支持博主",
+	title: "啦啦啦",
 	content:
-		"如果您觉得本站内容对您有帮助，欢迎支持我们的创作！您的支持是我们持续更新的动力。",
+		"开心快乐每一天",
 	image: {
 		src: "assets/images/cover.avif",
 		alt: "支持博主",
