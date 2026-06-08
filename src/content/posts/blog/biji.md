@@ -2,7 +2,7 @@
 title: biji
 published: 2026-06-07
 description: 这是文章的简短描述
-image: "![Screenshot_2026_0604_113513..png](https://tu.xizesha.com/file/beijing/1780803342855_Screenshot_2026_0604_113513..png)"
+image: ./images/55.avif
 tags:
   - 前端
   - 开发
