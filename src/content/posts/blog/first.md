@@ -2,7 +2,7 @@
 title: 第一篇博客
 published: 2026-06-08
 description: 这是文章的简短描述
-image: src/content/posts/images/shark1.avif
+image: ./images/firefly1.avif
 tags:
   - 文章示例
 category: 演示文案
