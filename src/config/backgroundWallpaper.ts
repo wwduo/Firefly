@@ -73,17 +73,17 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "Lovely xizesha!",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"Every coin has two sides",
+				"Life is a journey, not a destination.",
+				"Maybe it’s not great progress compared to others, but I’m happy with my progress. That’s all that matters.",
+				"You can’t be mad at me… I’m cute!",
+				"I only let my tears fall in the restroom or in my father's embrace.",
+				"Banana !!! ",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
