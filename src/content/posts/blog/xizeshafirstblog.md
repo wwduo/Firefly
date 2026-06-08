@@ -2,13 +2,17 @@
 title: 第一篇博客
 published: 2026-06-08
 description: 这是文章的简短描述
-image:
+image: src/content/posts/images/xi1.avif
 tags:
   - 文章示例
-category: 演示文案
+category: 纪念
 draft: false
 author: xizesha
 ---
 #博客 
 ##测试笔记
 ![Screenshot_2026_0608_103805..png](https://tu.xizesha.com/file/1780886442895_Screenshot_2026_0608_103805..png)
+折腾了好几天，从搭环境、调主题、改配置，踩了 N 个坑（比如封面图死活不显示、部署卡了半天…），我的 Firefly 博客终于正式上线啦！
+第一篇文章就从这里开始吧，记录一下从零搭建个人博客的碎碎念，也算是给自己一个新的开始。
+以后这里会慢慢填满我的学习笔记、踩坑记录，还有一些奇奇怪怪的小分享。希望能一直坚持下去，把这里变成一个属于自己的小天地～
+欢迎大家来逛，也欢迎随时给我提建议呀！
