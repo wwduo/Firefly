@@ -24,7 +24,7 @@ export const galleryConfig: GalleryConfig = {
 			tags: ["vtb", "QAQ"],
 		},
 		{
-			id: "xizesha-test",
+			id: "encrypted-test",
 			name: "加密相册示例",
 			description:
 				"这是一个加密相册的示例，设置了访问密码，只有输入正确的密码才能查看相册内容。",
