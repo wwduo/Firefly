@@ -2,7 +2,7 @@
 title: 第一篇博客
 published: 2026-06-08
 description: 这是文章的简短描述
-image: src/content/posts/images/xi1.avif
+image: ./xi1.avif
 tags:
   - 文章示例
 category: 纪念
