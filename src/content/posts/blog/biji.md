@@ -1,10 +1,12 @@
 ---
-title: 'biji'
+title: biji
 published: 2026-06-07
 description: 这是文章的简短描述
 image: ./cover.jpg
-tags: [前端, 开发]
-category: 前端开发
+tags:
+  - 前端
+  - 开发
+category: 测试文本
 draft: false
 author: xizesha
 ---
