@@ -8,10 +8,10 @@ category: Docker
 draft: false
 author: xizesha
 ---
-**docker images：**列出所有已下载到本地的Docker镜像。
+**docker images：列出所有已下载到本地的Docker镜像。
 
 **docker rmi image_name 或 docker rmi image_id**：删除镜像
-**docker pull** **--platform=xxx** **nginx：**拉取特定CPU架构的镜像
+**docker pull** **--platform=xxx** **nginx：拉取特定CPU架构的镜像
 docker ps默认只查看运行中的容器
 docker ps  -a：支持查看运行和已停止的容器
 
