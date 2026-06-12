@@ -1,8 +1,7 @@
 ---
 title: AI中常用词汇讲解
 published: 2026-06-12
-description:
-image:
+description: 简单介绍AI常用词
 tags:
   - AI
   - 科普
