@@ -3,9 +3,8 @@ title: Docker的安装
 published: 2026-06-07
 description: 本文介绍各系统如何Docker
 tags:
-  - 前端
-  - 开发
-category: 测试文本
+  - Docker
+category: Docker
 draft: false
 author: xizesha
 date: 2026-06-12
@@ -29,6 +28,14 @@ Docker是一种软件部署技术，利用容器化技术为应用程序封装�
 -   Docker Hub: Docker的官方公共仓库，存储了大量用户分享的Docker镜像。
 
 Docker是基于Linux的容器化技术。在Windows和Mac电脑上，Docker通过虚拟化一个Linux子系统来运行。
+
+**Docker技术原理简述**
+
+利用Linux内核的两大原生功能实现容器化
+
+- Cgroups (Control Groups): 用于限制和隔离进程的资源使用（为每个容器设置CPU、内存、网络带宽等），确保容器资源消耗不影响宿主机或其他容器。
+- Namespaces: 用于隔离进程的资源视图，使得容器只能看到自己内部的进程ID、网络资源和文件目录，而看不到宿主机的。
+- 本质: Docker容器本质上是一个特殊的进程，但进入容器内部后，其表现看起来像一个独立的操作系统。每个docker容器都是一个独立的运行环境，每个容器内部表现的都像一个独立的Linux系统
 
 Linux系统宿主机是最佳的Docker实战环境。
 
