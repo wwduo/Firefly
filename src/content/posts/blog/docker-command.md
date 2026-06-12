@@ -11,23 +11,31 @@ author: xizesha
 **docker images：列出所有已下载到本地的Docker镜像。
 
 **docker rmi image_name 或 docker rmi image_id**：删除镜像
+
 **docker pull** **--platform=xxx** **nginx：拉取特定CPU架构的镜像
+
+**docker ps  -a：支持查看运行和已停止的容器
+
 docker ps默认只查看运行中的容器
-docker ps  -a：支持查看运行和已停止的容器
 
 **docker run** **-p** **端口号1:端口号2 镜像名**
+
 - 每个容器运行在独立的虚拟网络环境中，与宿主机的网络隔离，默认无法直接从宿主机访问容器内部网络。
 - -p参数将宿主机的端口映射到容器内部的端口。
 - -p 宿主机端口:容器内部端口（先外后内）
+*  **示例**: `-p 80:80`将宿主机的80端口转发到容器内的80端口。
 
-    *  **示例**: `-p 80:80`将宿主机的80端口转发到容器内的80端口。
 **docker run** **-v** **宿主机目录:容器内目录 镜像名**
+
 - 功能: 将宿主机的文件目录与容器内的文件目录进行绑定。使得在任一方修改该文件夹时，另一方都会同步修改
 - 挂载卷：绑定的目录就称为挂载卷
 - 目的: 实现数据的**持久化保存**。当容器被删除时，容器内的数据也会被删除，但**挂载卷可确保容器删除时，数据仍保存在宿主机上**。
-docker volume list：查看所有创建过的卷
-docker volume rm 卷名：删除卷
-docker volume prune -a：删除所有没有任何容器在使用的卷
+
+**docker volume list：查看所有创建过的卷
+
+**docker volume rm 卷名：删除卷
+
+**docker volume prune -a：删除所有没有任何容器在使用的卷
 
 **docker run -e xxx：传递环境变量，可多次-e
 
