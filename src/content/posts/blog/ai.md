@@ -4,9 +4,9 @@ published: 2026-06-12
 description:
 image:
 tags:
-  - 前端
-  - 开发
-category: 前端开发
+  - AI
+  - 科普
+category: AI
 draft: false
 author: xizesha
 ---
