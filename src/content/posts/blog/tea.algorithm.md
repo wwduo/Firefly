@@ -2,7 +2,6 @@
 title: TEA算法
 published: 2026-10-28
 description: 这是文章的简短描述
-image:
 tags:
   - 算法
 category: 算法
