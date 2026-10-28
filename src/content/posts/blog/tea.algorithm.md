@@ -6,7 +6,7 @@ tags:
   - 算法
 category: 算法
 draft: false
-author: 晓
+author: Dawn
 ---
 # EA算法
 
